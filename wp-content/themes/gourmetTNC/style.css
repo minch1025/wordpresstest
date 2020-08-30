@@ -1,0 +1,55 @@
+/* Theme Name: GourmetTNC
+Author: Kwon mincho
+Author URI:
+ * https://gourmettnc.net/
+Description: GourmetTNC lecture.
+Version: 1.7
+ * License: GNU General Public License v2 or later
+License URI:
+ * http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gourmettnc
+Tags:
+ * one-column, gourmettnc
+
+This is portfolio page for gourmetTNC
+ */
+
+/*Generallized layout */
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+* {
+    font-family: 'Nanum Gothic', sans - serif;
+    box-sizing: border-box;
+
+}
+
+p,
+li,
+h4,
+h5 {
+    line-height: 1.8rem;
+}
+
+h1 {
+    line-height: 2.5rem;
+}
+
+h2 {
+    line-height: 2.3rem;
+}
+
+h3 {
+    line-height: 2.0rem;
+}
+
+.section-content {
+    padding: 4rem 0;
+}
+
+hr:last-of-type {
+    display: none;
+}
+
+a {
+    text-decoration: none !important;
+}
